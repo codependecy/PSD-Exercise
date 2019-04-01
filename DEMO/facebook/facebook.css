@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1500px;
+    background: #ebedf4;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+input{
+    border: 0px;
+    outline: none;
+    background: none;
+}
+.clearfix{
+    zoom: 1;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.w850{
+    width: 850px;
+    margin: 0 auto;
+}
+.header{
+    background: #4d6da9;
+    padding: 12px 0;
+    height: 25px;
+}
+.header-left{
+    float: left;
+}
+.header-left>a{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    background: #ffffff;
+}
+.header-left>input{
+    width: 437px;
+    padding-left: 10px;
+    margin-left: 8px;
+    font-size: 12px;
+    display: inline-block;
+    background: #ffffff;
+    line-height: 25px;
+    border-radius: 2px;
+    vertical-align: top;
+}
+.header-right{
+    float: right;
+}
+.header-right .avator{
+    float: left;
+}
+.header-right .avator>a{
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background: #7ea1cc;
+    border-radius: 1px; 
+    vertical-align: middle;
+    border-radius: 2px;
+}
+.header-right .avator>span{
+    display: inline-block;
+    width: 40px;
+    padding-top: 9px;
+    background: #93b1dd;
+    margin-left: 10px;
+    margin-right: 8px;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+.header-right  .login{
+    float: right;
+}
+.header-right  .login>a{
+    display: inline-block;
+    width: 12px;
+    padding-top: 9px;
+    vertical-align: middle;
+    background: #93b1dd;
+}
